@@ -1,10 +1,15 @@
 # ToDo App
-**ToDo App** is a user-friendly app built with React that improves your task management routine. This application stores your goals and their changes in an API (application programming interface)
+**ToDo App** is used to maintain our day-to-day tasks or list everything that we have to do. It is helpful in planning our daily schedules. You can add tasks, update or delete completed tasks at any time.
 
-This app is used to maintain our day-to-day tasks or list everything that we have to do. It is helpful in planning our daily schedules. You can add tasks, update or delete completed tasks at any time.
+This user-friendly app built with React  and stores your goals and their changes in an API (application programming interface).
 
-**Try out my application. You'll like it and find it useful.**
-### [ToDo App Demo](https://antonina-klishch.github.io/todo_application/).
+## Technologies:
+* **React**
+* **TypeScript**
+* **JavaScript (JS)**
+* **HTML**
+* **CSS**
+* **API**
 
 ## Key Features:
 
@@ -18,10 +23,6 @@ This app is used to maintain our day-to-day tasks or list everything that we hav
 
 **Fast Removal:** Quickly delete tasks with one click of the mouse for maximum efficiency.
 
-## Technologies:
-* **React**
-* **TypeScript**
-* **JavaScript (JS)**
-* **HTML**
-* **CSS**
-* **API**
+## DEMO
+**Try out my application. You'll like it and find it useful -**
+**[ToDo App Demo](https://antonina-klishch.github.io/todo_application/)**
