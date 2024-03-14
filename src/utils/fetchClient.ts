@@ -24,6 +24,7 @@ function request<T>(
       'Content-Type': 'application/json; charset=UTF-8',
     };
   }
+
   return wait(100)
     .then(() => fetch(BASE_URL + url, options))
     .then(response => {

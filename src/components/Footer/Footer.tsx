@@ -1,4 +1,5 @@
 import React from 'react';
+import cn from 'classnames';
 import { Filter } from '../TodosFilter';
 import { Todo } from '../../types/Todo';
 import { Status } from '../../types/Status';
@@ -22,16 +23,25 @@ export const Footer: React.FC<Props> = React.memo(
         <span className="todo-count" data-cy="TodosCounter">
           {`${activeTodos.length} items left`}
         </span>
-        <Filter setTodosStatus={setTodosStatus} todosStatus={todosStatus} />
-        <button
+        <Filter
+          setTodosStatus={setTodosStatus}
+          todosStatus={todosStatus}
+          todos={todos}
+        />
+        <a
+          href="#/"
           type="button"
-          className="todoapp__clear-completed"
+          className={cn('todoapp__clear-completed', {
+            disabled: completedTodo.length === 0,
+          })}
           data-cy="ClearCompletedButton"
-          disabled={completedTodo.length === 0}
-          onClick={() => removeTodo(completedTodo)}
+          onClick={() => {
+            removeTodo(completedTodo);
+            setTodosStatus(Status.All);
+          }}
         >
           Clear completed
-        </button>
+        </a>
       </footer>
     );
   },

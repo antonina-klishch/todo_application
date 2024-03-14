@@ -243,7 +243,6 @@ export const App: React.FC = () => {
           <div data-cy="Todo" className="todo">
             <label className="todo__status-label">
               <input
-                id="Todo-Status"
                 data-cy="TodoStatus"
                 type="checkbox"
                 className="todo__status"
@@ -276,7 +275,7 @@ export const App: React.FC = () => {
           <Footer
             todosStatus={todosStatus}
             setTodosStatus={setTodosStatus}
-            todos={visibleTodos}
+            todos={todos}
             activeTodos={activeTodos}
             removeTodo={removeCompletedTodos}
           />
