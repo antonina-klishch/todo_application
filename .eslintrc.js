@@ -5,5 +5,6 @@ module.exports = {
       ignoreTemplateLiterals: true,
       ignoreComments: true,
     }],
+    'operator-linebreak': 0,
   },
 };

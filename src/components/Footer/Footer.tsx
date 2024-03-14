@@ -23,11 +23,7 @@ export const Footer: React.FC<Props> = React.memo(
         <span className="todo-count" data-cy="TodosCounter">
           {`${activeTodos.length} items left`}
         </span>
-        <Filter
-          setTodosStatus={setTodosStatus}
-          todosStatus={todosStatus}
-          todos={todos}
-        />
+        <Filter setTodosStatus={setTodosStatus} todosStatus={todosStatus} />
         <a
           href="#/"
           type="button"
