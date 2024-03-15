@@ -1,7 +1,7 @@
 # ToDo App
 **ToDo App** is used to maintain our day-to-day tasks or list everything that we have to do. It is helpful in planning our daily schedules. You can add tasks, update or delete completed tasks at any time.
 
-This user-friendly is app built with React  and stores your goals and their changes in an API (application programming interface).
+This user-friendly app is built with React  and stores your goals and their changes in an API (application programming interface).
 
 ## Technologies:
 * **React**
