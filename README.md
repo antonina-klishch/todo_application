@@ -19,7 +19,7 @@ This user-friendly app is built with React  and stores your goals and their chan
 
 **Task Quantity Monitoring:** Track the number of active tasks and completed tasks, giving you a clear overview of the status of your task list.
 
-**Intuitive Editing:** offers intuitive editing options that allow you to easily update tasks and adapt your todo list to changing requirements.
+**Intuitive Editing:** Offers intuitive editing options that allow you to easily update tasks and adapt your todo list to changing requirements.
 
 **Fast Removal:** Quickly delete tasks with one click of the mouse for maximum efficiency.
 
